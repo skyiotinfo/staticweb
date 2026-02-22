@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Water Control Devices For Agriculture</title>
+  <desc id="desc">Illustration for agricultural water control device product.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#052e16"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <path d="M0 520 C220 460 360 600 600 540 C840 480 1020 560 1200 510 L1200 700 L0 700 Z" fill="#22c55e" opacity="0.45"/>
+  <circle cx="240" cy="210" r="62" fill="#4ade80" opacity="0.35"/>
+  <rect x="120" y="280" width="300" height="180" rx="16" fill="#052e16" stroke="#4ade80"/>
+  <text x="500" y="330" fill="#ecfdf5" font-family="Arial, sans-serif" font-size="50" font-weight="700">Water Control</text>
+  <text x="500" y="392" fill="#86efac" font-family="Arial, sans-serif" font-size="36">Agriculture Devices</text>
+</svg>

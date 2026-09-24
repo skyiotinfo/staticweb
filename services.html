@@ -20,6 +20,7 @@
           <li><a href="index.html" class="rounded-md px-3 py-1.5 hover:bg-slate-800 hover:text-slate-50">Home</a></li>
           <li><a href="services.html" class="rounded-md bg-slate-800 px-3 py-1.5 text-slate-50">Services</a></li>
           <li><a href="products.html" class="rounded-md px-3 py-1.5 hover:bg-slate-800 hover:text-slate-50">Products</a></li>
+          <li><a href="case-studies.html" class="rounded-md px-3 py-1.5 hover:bg-slate-800 hover:text-slate-50">Case Studies</a></li>
           <li><a href="about.html" class="rounded-md px-3 py-1.5 hover:bg-slate-800 hover:text-slate-50">About Us</a></li>
           <li><a href="contact.html" class="rounded-md px-3 py-1.5 hover:bg-slate-800 hover:text-slate-50">Contact</a></li>
         </ul>
@@ -27,60 +28,219 @@
     </div>
   </header>
 
-  <main class="py-14">
-    <div class="mx-auto max-w-6xl px-6">
-      <header class="max-w-2xl">
-        <h1 class="text-2xl font-semibold tracking-tight text-slate-50">Our Services</h1>
-        <p class="mt-3 text-sm text-slate-400">
+  <main>
+    <!-- Hero Section -->
+    <section class="border-b border-slate-800 bg-gradient-to-b from-slate-950 to-slate-900/60 py-16">
+      <div class="mx-auto max-w-4xl px-6 text-center">
+        <h1 class="text-4xl font-bold tracking-tight text-slate-50">Our Services</h1>
+        <p class="mt-4 text-lg text-slate-300 leading-relaxed">
           From strategy to deployment and ongoing support—we help you build and operate IoT systems that deliver real business value.
         </p>
-      </header>
+      </div>
+    </section>
 
-      <div class="mt-8 grid gap-5 md:grid-cols-2">
-        <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-sm shadow-slate-950/40">
-          <h3 class="flex items-center gap-2 text-sm font-semibold text-slate-100">
-            <span class="h-6 w-6 rounded-md bg-sky-500/80"></span>
-            IoT Consulting &amp; Strategy
-          </h3>
-          <p class="mt-2 text-sm text-slate-400">
-            We provide an end-to-end, single-partner solution and vendor support that drive your project from vision to value — covering strategy, design, implementation, testing, optimization, and long-term support. Our unified approach ensures seamless continuity, faster delivery, clear accountability, and coordinated third-party integrations when needed. By aligning technology with your business goals, we help you accelerate innovation, improve operational efficiency, and achieve measurable outcomes with confidence.
-          </p>
-        </div>
-        <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-sm shadow-slate-950/40">
-          <h3 class="flex items-center gap-2 text-sm font-semibold text-slate-100">
-            <span class="h-6 w-6 rounded-md bg-emerald-500/80"></span>
-            Integration &amp; Development
-          </h3>
-          <p class="mt-2 text-sm text-slate-400">
-            Custom gateways, device onboarding, and integration with your existing ERP, MES, SCADA, PLCs, and analytics tools. We work with industries and companies — including food &amp; beverage, manufacturing, logistics, and others — to integrate legacy systems, on-premise control systems, and cloud platforms into our Automation and IoT solution. Our integration services, APIs, and SDKs are tailored to your stack to enable secure, scalable data flows, reduce integration risk, and accelerate time-to-value.
-          </p>
-        </div>
-        <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-sm shadow-slate-950/40">
-          <h3 class="flex items-center gap-2 text-sm font-semibold text-slate-100">
-            <span class="h-6 w-6 rounded-md bg-indigo-500/80"></span>
-            Deployment &amp; Operations
-          </h3>
-          <p class="mt-2 text-sm text-slate-400">
-            On-site or remote deployment, device lifecycle management, monitoring, and 24/7 support so your IoT deployment stays healthy and compliant.
-          </p>
-        </div>
-        <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-sm shadow-slate-950/40">
-          <h3 class="flex items-center gap-2 text-sm font-semibold text-slate-100">
-            <span class="h-6 w-6 rounded-md bg-amber-500/80"></span>
-            Training &amp; Documentation
-          </h3>
-          <p class="mt-2 text-sm text-slate-400">
-            Hands-on training for your engineers and operators, plus clear documentation and runbooks so you can own and extend the system long-term.
-          </p>
+    <!-- Main Services -->
+    <section class="py-14">
+      <div class="mx-auto max-w-6xl px-6">
+        <div class="space-y-10">
+          <!-- Service 1 -->
+          <div class="grid gap-8 md:grid-cols-2 items-center">
+            <div class="order-2 md:order-1">
+              <div class="h-12 w-12 rounded-lg bg-sky-500/10 flex items-center justify-center mb-4">
+                <span class="text-2xl">💡</span>
+              </div>
+              <h3 class="text-2xl font-bold text-slate-100">IoT Consulting &amp; Strategy</h3>
+              <p class="mt-4 text-slate-300 leading-relaxed">
+                We provide an end-to-end, single-partner solution and vendor support that drive your project from vision to value.
+              </p>
+              <ul class="mt-4 space-y-2 text-sm text-slate-400">
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">Strategic Planning:</strong> Technology assessment, roadmap development, and ROI analysis</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">Architecture Design:</strong> Edge, cloud, and hybrid deployment architectures</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">Use Case Development:</strong> Identify high-value IoT applications for your business</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">Vendor Coordination:</strong> Unified approach with seamless third-party integrations</span>
+                </li>
+              </ul>
+            </div>
+            <div class="order-1 md:order-2 rounded-xl border border-slate-800 bg-slate-900/60 p-8 flex items-center justify-center h-64">
+              <span class="text-6xl">📊</span>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="grid gap-8 md:grid-cols-2 items-center">
+            <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-8 flex items-center justify-center h-64">
+              <span class="text-6xl">🔧</span>
+            </div>
+            <div>
+              <div class="h-12 w-12 rounded-lg bg-emerald-500/10 flex items-center justify-center mb-4">
+                <span class="text-2xl">⚙️</span>
+              </div>
+              <h3 class="text-2xl font-bold text-slate-100">Integration &amp; Development</h3>
+              <p class="mt-4 text-slate-300 leading-relaxed">
+                Custom solutions tailored to your existing infrastructure and business requirements.
+              </p>
+              <ul class="mt-4 space-y-2 text-sm text-slate-400">
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">System Integration:</strong> Connect with ERP, MES, SCADA, PLCs, and analytics platforms</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">Custom Gateway Development:</strong> Protocol conversion and edge processing</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">API & SDK Development:</strong> Enable seamless data flows and automation</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">Legacy Modernization:</strong> Bridge on-premise control systems with cloud platforms</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="grid gap-8 md:grid-cols-2 items-center">
+            <div class="order-2 md:order-1">
+              <div class="h-12 w-12 rounded-lg bg-indigo-500/10 flex items-center justify-center mb-4">
+                <span class="text-2xl">🚀</span>
+              </div>
+              <h3 class="text-2xl font-bold text-slate-100">Deployment &amp; Operations</h3>
+              <p class="mt-4 text-slate-300 leading-relaxed">
+                Professional deployment services with ongoing monitoring and 24/7 support.
+              </p>
+              <ul class="mt-4 space-y-2 text-sm text-slate-400">
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">On-Site Deployment:</strong> Professional installation, commissioning, and testing</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">Device Lifecycle Management:</strong> Provisioning, updates, and decommissioning</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">Monitoring & Maintenance:</strong> Proactive system health checks and optimization</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">24/7 Support:</strong> Expert support team ensuring system reliability and compliance</span>
+                </li>
+              </ul>
+            </div>
+            <div class="order-1 md:order-2 rounded-xl border border-slate-800 bg-slate-900/60 p-8 flex items-center justify-center h-64">
+              <span class="text-6xl">🛠️</span>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="grid gap-8 md:grid-cols-2 items-center">
+            <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-8 flex items-center justify-center h-64">
+              <span class="text-6xl">📚</span>
+            </div>
+            <div>
+              <div class="h-12 w-12 rounded-lg bg-amber-500/10 flex items-center justify-center mb-4">
+                <span class="text-2xl">🎓</span>
+              </div>
+              <h3 class="text-2xl font-bold text-slate-100">Training &amp; Documentation</h3>
+              <p class="mt-4 text-slate-300 leading-relaxed">
+                Empower your team with knowledge and tools to own and extend your IoT systems.
+              </p>
+              <ul class="mt-4 space-y-2 text-sm text-slate-400">
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">Hands-On Training:</strong> Technical workshops for engineers and operators</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">Comprehensive Documentation:</strong> System architecture, APIs, and operational guides</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">Runbooks & Best Practices:</strong> Standard operating procedures and troubleshooting guides</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 mt-1">✓</span>
+                  <span><strong class="text-slate-300">Knowledge Transfer:</strong> Ensure long-term self-sufficiency for your team</span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
 
-      <p class="mt-8">
-        <a href="contact.html" class="inline-flex items-center rounded-md bg-sky-500 px-5 py-2.5 text-sm font-semibold text-white shadow hover:bg-sky-400">
-          Discuss Your Project
-        </a>
-      </p>
-    </div>
+    <!-- Service Process -->
+    <section class="border-t border-slate-900 bg-slate-900/20 py-14">
+      <div class="mx-auto max-w-6xl px-6">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <h2 class="text-3xl font-bold tracking-tight text-slate-50">Our Proven Process</h2>
+          <p class="mt-3 text-base text-slate-400">
+            A structured approach to ensure project success from day one.
+          </p>
+        </div>
+        <div class="grid gap-6 md:grid-cols-4">
+          <div class="text-center">
+            <div class="mx-auto h-16 w-16 rounded-full bg-sky-500/10 flex items-center justify-center text-2xl font-bold text-sky-400 mb-4">1</div>
+            <h3 class="text-base font-semibold text-slate-100">Discovery</h3>
+            <p class="mt-2 text-sm text-slate-400">
+              Understand your goals, assess current infrastructure, and define success metrics.
+            </p>
+          </div>
+          <div class="text-center">
+            <div class="mx-auto h-16 w-16 rounded-full bg-emerald-500/10 flex items-center justify-center text-2xl font-bold text-emerald-400 mb-4">2</div>
+            <h3 class="text-base font-semibold text-slate-100">Design</h3>
+            <p class="mt-2 text-sm text-slate-400">
+              Create tailored architecture, select technologies, and develop implementation roadmap.
+            </p>
+          </div>
+          <div class="text-center">
+            <div class="mx-auto h-16 w-16 rounded-full bg-purple-500/10 flex items-center justify-center text-2xl font-bold text-purple-400 mb-4">3</div>
+            <h3 class="text-base font-semibold text-slate-100">Deploy</h3>
+            <p class="mt-2 text-sm text-slate-400">
+              Execute phased rollout with rigorous testing and validation at each milestone.
+            </p>
+          </div>
+          <div class="text-center">
+            <div class="mx-auto h-16 w-16 rounded-full bg-amber-500/10 flex items-center justify-center text-2xl font-bold text-amber-400 mb-4">4</div>
+            <h3 class="text-base font-semibold text-slate-100">Optimize</h3>
+            <p class="mt-2 text-sm text-slate-400">
+              Monitor performance, iterate on insights, and continuously improve system value.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-14">
+      <div class="mx-auto max-w-4xl px-6 text-center">
+        <h2 class="text-2xl font-bold tracking-tight text-slate-50">Ready to Start Your IoT Journey?</h2>
+        <p class="mt-3 text-base text-slate-400">
+          Let's discuss your project requirements and explore how we can help you achieve your goals.
+        </p>
+        <div class="mt-6 flex flex-wrap items-center justify-center gap-4">
+          <a href="contact.html" class="inline-flex items-center rounded-lg bg-sky-500 px-8 py-3 text-base font-semibold text-white shadow-lg hover:bg-sky-400 transition-all">
+            Discuss Your Project →
+          </a>
+          <a href="products.html" class="inline-flex items-center rounded-lg border-2 border-slate-600 px-8 py-3 text-base font-semibold text-slate-200 hover:border-sky-500 hover:bg-slate-800 transition-all">
+            View Products
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="border-t border-slate-900 bg-slate-950/90 py-10 text-sm text-slate-400">

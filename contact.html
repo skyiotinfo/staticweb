@@ -20,6 +20,7 @@
           <li><a href="index.html" class="rounded-md px-3 py-1.5 hover:bg-slate-800 hover:text-slate-50">Home</a></li>
           <li><a href="services.html" class="rounded-md px-3 py-1.5 hover:bg-slate-800 hover:text-slate-50">Services</a></li>
           <li><a href="products.html" class="rounded-md px-3 py-1.5 hover:bg-slate-800 hover:text-slate-50">Products</a></li>
+          <li><a href="case-studies.html" class="rounded-md px-3 py-1.5 hover:bg-slate-800 hover:text-slate-50">Case Studies</a></li>
           <li><a href="about.html" class="rounded-md px-3 py-1.5 hover:bg-slate-800 hover:text-slate-50">About Us</a></li>
           <li><a href="contact.html" class="rounded-md bg-slate-800 px-3 py-1.5 text-slate-50">Contact</a></li>
         </ul>
@@ -27,89 +28,265 @@
     </div>
   </header>
 
-  <main class="py-14">
-    <div class="mx-auto max-w-4xl px-6">
-      <h1 class="text-2xl font-semibold tracking-tight text-slate-50">Contact Us</h1>
-      <p class="mt-3 text-sm text-slate-400">
-        Have a project in mind or need more information? Send us a message and we’ll get back to you shortly.
-      </p>
+  <main>
+    <!-- Hero Section -->
+    <section class="border-b border-slate-800 bg-gradient-to-b from-slate-950 to-slate-900/60 py-16">
+      <div class="mx-auto max-w-4xl px-6 text-center">
+        <h1 class="text-4xl font-bold tracking-tight text-slate-50">Contact Us</h1>
+        <p class="mt-4 text-lg text-slate-300 leading-relaxed">
+          Have a project in mind or need more information? We're here to help transform your IoT vision into reality.
+        </p>
+      </div>
+    </section>
 
-      <div class="mt-8 grid gap-4 md:grid-cols-[minmax(0,1.1fr)_minmax(0,1.2fr)]">
-        <div class="space-y-4">
-          <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-4 shadow-sm shadow-slate-950/40">
-            <h3 class="flex items-center gap-2 text-sm font-semibold text-slate-100">
-              <span class="h-6 w-6 rounded-md bg-sky-500/80"></span>
-              Email
-            </h3>
-            <p class="mt-1 text-sm text-slate-400">
-              <a href="mailto:info@skyiottech.com" class="text-sky-400 hover:text-sky-300">info@skyiottech.com</a>
-            </p>
-          </div>
-          <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-4 shadow-sm shadow-slate-950/40">
-            <h3 class="flex items-center gap-2 text-sm font-semibold text-slate-100">
-              <span class="h-6 w-6 rounded-md bg-emerald-500/80"></span>
-              General Inquiries
-            </h3>
-            <p class="mt-1 text-sm text-slate-400">+91-8338459147</p>
-          </div>
-        </div>
+    <!-- Contact Info & Form -->
+    <section class="py-14">
+      <div class="mx-auto max-w-6xl px-6">
+        <div class="grid gap-8 lg:grid-cols-2">
+          <!-- Contact Information -->
+          <div class="space-y-6">
+            <div>
+              <h2 class="text-2xl font-bold text-slate-50 mb-6">Get in Touch</h2>
+              <p class="text-slate-300 leading-relaxed">
+                Whether you're ready to start a project or just exploring options, our team is here to answer 
+                your questions and provide expert guidance.
+              </p>
+            </div>
 
-        <div>
-          <h2 class="text-base font-semibold text-slate-50">Send a Message</h2>
-          <form class="mt-4 space-y-4" action="#" method="post">
-            <div class="space-y-1 text-sm">
-              <label for="name" class="block text-slate-300">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                placeholder="Your name"
-                class="w-full rounded-md border border-slate-800 bg-slate-900/70 px-3 py-2 text-sm text-slate-50 outline-none ring-sky-500/0 focus:border-sky-500 focus:ring-2 focus:ring-sky-500/40"
-              >
+            <div class="space-y-4">
+              <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-6 hover:border-sky-500/50 transition-all">
+                <div class="flex items-start gap-4">
+                  <div class="h-12 w-12 rounded-lg bg-sky-500/10 flex items-center justify-center flex-shrink-0">
+                    <span class="text-2xl">📧</span>
+                  </div>
+                  <div>
+                    <h3 class="text-base font-semibold text-slate-100">Email</h3>
+                    <p class="mt-1 text-sm text-slate-400">For general inquiries and support</p>
+                    <a href="mailto:info@skyiottech.com" class="mt-2 inline-block text-sky-400 hover:text-sky-300 font-medium">
+                      info@skyiottech.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-6 hover:border-emerald-500/50 transition-all">
+                <div class="flex items-start gap-4">
+                  <div class="h-12 w-12 rounded-lg bg-emerald-500/10 flex items-center justify-center flex-shrink-0">
+                    <span class="text-2xl">📞</span>
+                  </div>
+                  <div>
+                    <h3 class="text-base font-semibold text-slate-100">Phone</h3>
+                    <p class="mt-1 text-sm text-slate-400">Call us during business hours</p>
+                    <p class="mt-2 text-sky-400 font-medium">+91-8338459147</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-6 hover:border-purple-500/50 transition-all">
+                <div class="flex items-start gap-4">
+                  <div class="h-12 w-12 rounded-lg bg-purple-500/10 flex items-center justify-center flex-shrink-0">
+                    <span class="text-2xl">⏰</span>
+                  </div>
+                  <div>
+                    <h3 class="text-base font-semibold text-slate-100">Business Hours</h3>
+                    <p class="mt-1 text-sm text-slate-400">Monday - Friday: 9:00 AM - 6:00 PM IST</p>
+                    <p class="mt-1 text-sm text-slate-400">24/7 Emergency Support Available</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-6 hover:border-amber-500/50 transition-all">
+                <div class="flex items-start gap-4">
+                  <div class="h-12 w-12 rounded-lg bg-amber-500/10 flex items-center justify-center flex-shrink-0">
+                    <span class="text-2xl">📍</span>
+                  </div>
+                  <div>
+                    <h3 class="text-base font-semibold text-slate-100">Headquarters</h3>
+                    <p class="mt-1 text-sm text-slate-400">Serving clients globally with local expertise</p>
+                    <p class="mt-2 text-sky-400 font-medium">India | USA | Europe</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="space-y-1 text-sm">
-              <label for="email" class="block text-slate-300">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                placeholder="you@company.com"
-                class="w-full rounded-md border border-slate-800 bg-slate-900/70 px-3 py-2 text-sm text-slate-50 outline-none ring-sky-500/0 focus:border-sky-500 focus:ring-2 focus:ring-sky-500/40"
-              >
+          </div>
+
+          <!-- Contact Form -->
+          <div>
+            <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-8">
+              <h2 class="text-xl font-bold text-slate-50 mb-6">Send Us a Message</h2>
+              <form class="space-y-5" action="#" method="post">
+                <div class="space-y-2">
+                  <label for="name" class="block text-sm font-medium text-slate-300">Full Name *</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="John Doe"
+                    class="w-full rounded-lg border border-slate-700 bg-slate-900/70 px-4 py-3 text-sm text-slate-50 outline-none ring-sky-500/0 focus:border-sky-500 focus:ring-2 focus:ring-sky-500/40 transition-all"
+                  >
+                </div>
+                <div class="space-y-2">
+                  <label for="email" class="block text-sm font-medium text-slate-300">Email Address *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="john@company.com"
+                    class="w-full rounded-lg border border-slate-700 bg-slate-900/70 px-4 py-3 text-sm text-slate-50 outline-none ring-sky-500/0 focus:border-sky-500 focus:ring-2 focus:ring-sky-500/40 transition-all"
+                  >
+                </div>
+                <div class="space-y-2">
+                  <label for="company" class="block text-sm font-medium text-slate-300">Company</label>
+                  <input
+                    type="text"
+                    id="company"
+                    name="company"
+                    placeholder="Your Company Name"
+                    class="w-full rounded-lg border border-slate-700 bg-slate-900/70 px-4 py-3 text-sm text-slate-50 outline-none ring-sky-500/0 focus:border-sky-500 focus:ring-2 focus:ring-sky-500/40 transition-all"
+                  >
+                </div>
+                <div class="space-y-2">
+                  <label for="interest" class="block text-sm font-medium text-slate-300">I'm interested in</label>
+                  <select
+                    id="interest"
+                    name="interest"
+                    class="w-full rounded-lg border border-slate-700 bg-slate-900/70 px-4 py-3 text-sm text-slate-50 outline-none ring-sky-500/0 focus:border-sky-500 focus:ring-2 focus:ring-sky-500/40 transition-all"
+                  >
+                    <option>IoT Consulting</option>
+                    <option>Product Information</option>
+                    <option>Custom Integration</option>
+                    <option>Support & Maintenance</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="space-y-2">
+                  <label for="message" class="block text-sm font-medium text-slate-300">Message *</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    required
+                    rows="5"
+                    placeholder="Tell us about your project or question..."
+                    class="w-full rounded-lg border border-slate-700 bg-slate-900/70 px-4 py-3 text-sm text-slate-50 outline-none ring-sky-500/0 focus:border-sky-500 focus:ring-2 focus:ring-sky-500/40 transition-all resize-none"
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="w-full inline-flex items-center justify-center rounded-lg bg-sky-500 px-6 py-3.5 text-base font-semibold text-white shadow-lg hover:bg-sky-400 transition-all"
+                >
+                  Send Message →
+                </button>
+                <p class="text-xs text-slate-400 text-center">
+                  We typically respond within 24 hours
+                </p>
+              </form>
             </div>
-            <div class="space-y-1 text-sm">
-              <label for="company" class="block text-slate-300">Company (optional)</label>
-              <input
-                type="text"
-                id="company"
-                name="company"
-                placeholder="Your company"
-                class="w-full rounded-md border border-slate-800 bg-slate-900/70 px-3 py-2 text-sm text-slate-50 outline-none ring-sky-500/0 focus:border-sky-500 focus:ring-2 focus:ring-sky-500/40"
-              >
-            </div>
-            <div class="space-y-1 text-sm">
-              <label for="message" class="block text-slate-300">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                required
-                rows="4"
-                placeholder="Tell us about your project or question..."
-                class="w-full rounded-md border border-slate-800 bg-slate-900/70 px-3 py-2 text-sm text-slate-50 outline-none ring-sky-500/0 focus:border-sky-500 focus:ring-2 focus:ring-sky-500/40"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              class="inline-flex items-center rounded-md bg-sky-500 px-5 py-2.5 text-sm font-semibold text-white shadow hover:bg-sky-400"
-            >
-              Send Message
-            </button>
-          </form>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="border-t border-slate-900 bg-slate-900/20 py-14">
+      <div class="mx-auto max-w-4xl px-6">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold tracking-tight text-slate-50">Frequently Asked Questions</h2>
+          <p class="mt-3 text-base text-slate-400">
+            Quick answers to common questions about our services.
+          </p>
+        </div>
+        <div class="space-y-4">
+          <details class="group rounded-xl border border-slate-800 bg-slate-900/60 p-6 hover:border-sky-500/50 transition-all">
+            <summary class="flex items-center justify-between cursor-pointer text-base font-semibold text-slate-100">
+              <span>What industries do you serve?</span>
+              <span class="text-sky-400 group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <p class="mt-4 text-sm text-slate-400 leading-relaxed">
+              We serve manufacturing, energy & utilities, logistics, agriculture, smart buildings, water management, 
+              healthcare, and smart city projects. Our solutions are industry-agnostic and can be customized for 
+              any vertical requiring connected device management.
+            </p>
+          </details>
+
+          <details class="group rounded-xl border border-slate-800 bg-slate-900/60 p-6 hover:border-sky-500/50 transition-all">
+            <summary class="flex items-center justify-between cursor-pointer text-base font-semibold text-slate-100">
+              <span>How long does a typical deployment take?</span>
+              <span class="text-sky-400 group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <p class="mt-4 text-sm text-slate-400 leading-relaxed">
+              Pilot deployments typically take 4-8 weeks. Full production deployments vary based on scope but 
+              typically range from 8-16 weeks. Our phased approach ensures you see value at each milestone while 
+              minimizing risk.
+            </p>
+          </details>
+
+          <details class="group rounded-xl border border-slate-800 bg-slate-900/60 p-6 hover:border-sky-500/50 transition-all">
+            <summary class="flex items-center justify-between cursor-pointer text-base font-semibold text-slate-100">
+              <span>Do you offer ongoing support and maintenance?</span>
+              <span class="text-sky-400 group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <p class="mt-4 text-sm text-slate-400 leading-relaxed">
+              Yes! We offer 24/7 support with clear SLAs, proactive monitoring, regular updates, and ongoing 
+              optimization. Our support packages include device lifecycle management, security patches, feature 
+              updates, and dedicated technical account management.
+            </p>
+          </details>
+
+          <details class="group rounded-xl border border-slate-800 bg-slate-900/60 p-6 hover:border-sky-500/50 transition-all">
+            <summary class="flex items-center justify-between cursor-pointer text-base font-semibold text-slate-100">
+              <span>Can you integrate with our existing systems?</span>
+              <span class="text-sky-400 group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <p class="mt-4 text-sm text-slate-400 leading-relaxed">
+              Absolutely. We specialize in integrating with existing ERP, MES, SCADA, PLCs, and analytics platforms. 
+              Our team has extensive experience with legacy systems and can build custom gateways, protocol converters, 
+              and APIs to ensure seamless data flow.
+            </p>
+          </details>
+
+          <details class="group rounded-xl border border-slate-800 bg-slate-900/60 p-6 hover:border-sky-500/50 transition-all">
+            <summary class="flex items-center justify-between cursor-pointer text-base font-semibold text-slate-100">
+              <span>What security measures do you implement?</span>
+              <span class="text-sky-400 group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <p class="mt-4 text-sm text-slate-400 leading-relaxed">
+              Security is built into every layer: device identity management, end-to-end encryption (TLS/SSL), 
+              zero-trust network architecture, regular security audits, compliance with industry standards 
+              (ISO 27001, SOC 2), and secure firmware updates over-the-air.
+            </p>
+          </details>
+
+          <details class="group rounded-xl border border-slate-800 bg-slate-900/60 p-6 hover:border-sky-500/50 transition-all">
+            <summary class="flex items-center justify-between cursor-pointer text-base font-semibold text-slate-100">
+              <span>What is your pricing model?</span>
+              <span class="text-sky-400 group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <p class="mt-4 text-sm text-slate-400 leading-relaxed">
+              We offer flexible pricing models including project-based fees for deployments, subscription-based 
+              pricing for platform services, and managed services with SLAs. Contact us for a customized quote 
+              based on your specific requirements and scale.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="border-t border-slate-900 py-14">
+      <div class="mx-auto max-w-4xl px-6 text-center">
+        <h2 class="text-2xl font-bold tracking-tight text-slate-50">Still Have Questions?</h2>
+        <p class="mt-3 text-base text-slate-400">
+          Our team is ready to help you find the right IoT solution for your business.
+        </p>
+        <div class="mt-6">
+          <a href="mailto:info@skyiottech.com" class="inline-flex items-center rounded-lg bg-sky-500 px-8 py-3 text-base font-semibold text-white shadow-lg hover:bg-sky-400 transition-all">
+            Email Us Directly →
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="border-t border-slate-900 bg-slate-950/90 py-10 text-sm text-slate-400">
